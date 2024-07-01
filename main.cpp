@@ -27,11 +27,6 @@ int main() {
     if (b_is_read_succeeded) {
       std::cout << "Reading size: " << reader_ptr->GetReadingDataPtr()->size()
                 << std::endl;
-      // DEBUG
-      std::cout << "Reading size: " << reader_ptr->GetReadingDataPtr()->size()
-                << std::endl;
-      //   for (auto &&row : *reader_ptr->GetReadingDataPtr()) std::cout <<
-      //   row;
     }
     std::cout << "====== Csv Reader Test Suit: End ======" << std::endl;
   }  // end of Csv Reader Test Suit
